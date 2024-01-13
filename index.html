@@ -3,15 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bali</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 8px;
+            text-align:left;
+            border-bottom: 1px solid #DDD;
+        }
+        tr:hover{
+            background-color: #D6EEEE;
+        }
+        body{
+            background-color: rgb(115, 196, 223);
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1><u>Bali</u></h1>
-        <p style="color:brown"><i>Land of Gods!!!</i></p>
+        <p style="color:rgb(9, 81, 6);"><i>Land of Gods!!!</i></p>
     </header>
     <hr>
-    <nav></nav>
 
+    <nav>
+        <a href="#Description">Description</a> |
+        <a href="#Attractions">Attractions</a> |
+        <a href="#Statistics">Statistics</a> |
+        <a href="#Feedback">Feedback</a>  |
+        <a href="#Quotes">Quotes</a> |
+        <a href="#Contact Us">Contact US</a>
+    </nav>
+
+    <main>
+        <div id="Description">
+        <h2 style="color:brown;">Shell yeah, we're Bali bound!</h2>
+        <img src="https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFsaXxlbnwwfHwwfHx8MA%3D%3D" alt="Bali Temple" width="300" height="300" title="Bali Temple">
+        <p>Bali appeals through its sheer natural beauty of <u><b style="color:rgb(131, 7, 148);"><i>looming volcanoes and lush terraced rice fields</i></b></u> that exude peace and serenity. It is also famous for surfers' paradise!</p>
+        </div>
+        <hr>
+
+        <div id="Attractions"></
+        <h2 style="color:rgb(21, 108, 184);">Attractions-</h2>
+        <h3 style="color:rgb(12, 113, 79);"><i>Main Attractions:</i></h3>
+        <ol type="A" style="color:rgb(78, 13, 138);">
+            <li>Tanah Lot</li>
+            <li>Sacred Monkey Forest</li>
+            <li>Uluwatu Temple</li>
+            <li>Besakih Great Temple</li>
+        </ol>
+
+        <h3 style="color:rgb(12, 113, 79)"";><i>Local Attractions:</i></h3>
+        <ul style="color:rgb(78, 13, 138);">
+            <li>Jatiluwih Green Land</li>
+            <li>Bali Temples:
+                <ul style="color:rgb(132, 81, 5);">
+                    <li>Goa Gajah</li>
+                    <li>Taman Ayun Temple</li>
+                    <li>Tirta Empul Temple</li>
+                </ul>
+            </li>
+            <li>Beaches:
+                <ul style="color:rgb(132, 81, 5);">
+                    <li>Kuta</li>
+                    <li>Legian</li>
+                    <li>Seminyak</li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+        <hr>
+
+        <div id="Statistics">
+        <h2 style="color:rgb(21, 108, 184);">City Statistics-</h2>
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Population</td>
+                <td>4 Million</td>
+            </tr>
+            <tr>
+                <td>Capital</td>
+                <td>Denpasar</td>
+            </tr>
+            <tr>
+                <td>Landmarks</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Beaches</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Temples</td>
+                <td>28</td>
+            </tr>
+        </table>
+        </div>
+        <hr>
+
+        <div id="Feedback">
+        <h2 style="color:rgb(21, 108, 184);">Feedback-</h2>
+        <form method="post">
+            <label for="name"><b>Name:</b></label>
+            <input id="name" name="Name" type="text" placeholder="Name" required>
+            <br>
+
+            <label for="email"><b>Email:</b></label>
+            <input id="email" name="Email" type="email" placeholder="Mail id" required>
+            <br>
+
+            <label for="age"><b>Age:</b></label>
+            <input id="age" name="Age" type="number" placeholder="Your Age" required>
+            <br>
+
+            <label for="scene"><b>Favourite Attractions:</b></label>
+            <select id="scene">
+                <option>Tanah Lot</option>
+                <option>Sacred Monkey Forest</option>
+                <option>Ulluwatu Temple</option>
+                <option>Goa Gajah</option>
+                <option>Kuta</option>
+                <option>Legian</option>
+                <option>Seminyak</option>
+            </select>
+            <br>
+
+            <label><b>Comments:</b></label>
+            <textarea placeholder="Add your Feedback" name="Comments" rows="3" cols="20" required></textarea>
+            <br>
+
+            <label for="news"><b>NewsLetter:</b></label>
+            <input id="news" name="NewsLetter" type="checkbox">
+            <span><i>Subscribe to our newsletter.</i></span>
+            <br>
+
+            <button id="Btn" type="submit">Submit</button>
+            <button id="reset" type="reset">Reset</button>
+        </form>
+        </div>
+        <hr>
+
+        <div id="Quotes">
+        <h2 style="color:rgb(21, 108, 184);">What Citizens Say?</h2>
+        <p><q>In <mark>Bali</mark>, the day, like all good days, passed far too quickly.</q> – <i>S.A. Tawks</i></p>
+        <p><q>I had dreamed of <strong>visiting Bali</strong> for many years.</q> – <i>Carolyn Murphy</i></p>
+        <p><q><mark>Bali</mark> is the sort of place where you can walk down the street and find something <em>picturesque</em>.</q></p> – <i>Henry Golding</i></p>
+        </div>
+        <hr>
+    
+        <div id="Contact Us">
+        <h2 style="color:rgb(21, 108, 184);">Contact Us!</h2>
+        <address>
+            <i>Bali Tourism Office<br>
+               100 Ocean Drive, Bali<br>
+               Email: <a href="mailto:info@bali.com" target="_blank">info@bali.com</a><br>
+               Phone: 123-456-7890
+            </i>
+        </address>
+        <p>&copy; Bali Tourism.<em style="color:rgb(86, 9, 9);">Dive into Dreams!</em></p>
+        </div>
+        </main>
+        <hr>
+
+        <footer>
+            <h3 style="color:rgb(21, 108, 184);"><b>Company Info</b></h3>
+            <p><em>A good plus of traveling is that often you get<br>
+            new skills without difficulty and without even<br>
+            noticing it.</em></p>
+            <a href="https://en.wikipedia.org/wiki/Bali" target="_blank"><img src="https://mobirise.com/extensions/travelm4/assets/images/logo.png" alt="logo" width="50" height="50" title="visit us"></a>  
+        </footer>
 </body>
 </html>
